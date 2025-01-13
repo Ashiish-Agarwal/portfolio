@@ -12,7 +12,7 @@ import { Testimonial } from "./testimonial";
 import { Grid } from "./grid";
 import { StickyScrollReveal } from "./StickyScrollReveal";
 import { TextScrambleCustomCharacterDuration } from "./HireButton";
-import { Review } from "./review";
+
 
 
 const Hero = () => {
@@ -126,7 +126,7 @@ const Hero = () => {
 </div>
         
         </div>
-        <Review/>
+       
       </div>
         <div className="pt-20 ">
         </div>

@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import {  useState } from "react";
-import { buttonVariants } from "./button";
+
 
 
 type Testimonial = {
