@@ -285,7 +285,7 @@ const SkeletonFive = () => {
         />
 
         <p className="text-xs text-neutral-500">
-        I'm passionate about building robust and scalable backends with React, and I'm eager to contribute my skills to a challenging and rewarding role."
+        I am passionate about building robust and scalable backends with React, and I am eager to contribute my skills to a challenging and rewarding role
         </p>
       </motion.div>
       <motion.div
@@ -336,7 +336,7 @@ const items = [
     title: "Sentiment Analysis",
     description: (
       <span className="text-sm">
-        Understand the sentiment of your text with AI analysis.
+        build something and creat something
       </span>
     ),
     header: <SkeletonFour />,

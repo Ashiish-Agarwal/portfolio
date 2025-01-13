@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/app/ThemeProvider";
 import { FloatingNavDemo } from "@/components/FloatingNav";
+import Footers from "@/components/Footers";
+
 
 
 const geistSans = Geist({
@@ -39,7 +41,11 @@ export default function RootLayout({
           >
             <FloatingNavDemo/>
             {children}
+
           </ThemeProvider>
+          
+            <Footers/>
+            
         
       </body>
     </html>

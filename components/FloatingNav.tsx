@@ -10,8 +10,8 @@ export function FloatingNavDemo() {
       icon: <FaHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      name: "About",
-      link: "/about",
+      name: "intrested",
+      link: "/intrested",
       icon: <FaHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
