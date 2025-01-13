@@ -1,12 +1,16 @@
 import  {Topnav}  from '@/components/AboutSection/Topnav'
-import React from 'react'
+import Loading from '@/components/Loading'
+import React, { Suspense } from 'react'
 
 const page = () => {
   return (
+    <Suspense fallback={<Loading/>}>
+
     <div>
 <Topnav/>
 
     </div>
+    </Suspense>
   )
 }
 

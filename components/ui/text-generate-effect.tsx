@@ -16,6 +16,8 @@ export const TextGenerateEffect = ({
 }) => {
   const [scope, animate] = useAnimate();
   const wordsArray = words.split(" ");
+  
+  // Fixing the useEffect dependencies
   useEffect(() => {
     animate(
       "span",
@@ -28,7 +30,7 @@ export const TextGenerateEffect = ({
         delay: stagger(0.2),
       }
     );
-  }, [scope.current]);
+  }, [animate, filter, duration]);  // Add animate, filter, and duration to the dependency array
 
   const renderWords = () => {
     return (
@@ -53,7 +55,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-bold", className)}>
       <div className="mt-4">
-        <div className=" dark:text-white text-black   text-pretty  leading-snug tracking-wide">
+        <div className=" dark:text-white text-black text-pretty leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>

@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/app/ThemeProvider";
 import { FloatingNavDemo } from "@/components/FloatingNav";
 import Footers from "@/components/Footers";
+import Loading from "@/components/Loading";
+import { Suspense } from "react";
 
 
 
@@ -32,19 +34,22 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-black-100`}
       >
+        <Suspense fallback={<Loading/>}>
       
-          <ThemeProvider
+      
+           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
-          >
+            >
             <FloatingNavDemo/>
             {children}
 
           </ThemeProvider>
           
-            <Footers/>
+            <Footers/> 
+            </Suspense>
             
         
       </body>
