@@ -15,6 +15,7 @@ export function TextMorph({
   as: Component = 'p',
   className,
   style,
+  
 }: TextMorphProps) {
   const uniqueId = useId();
 

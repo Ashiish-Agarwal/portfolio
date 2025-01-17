@@ -12,6 +12,9 @@ import { Testimonial } from "./testimonial";
 import { Grid } from "./grid";
 import { StickyScrollReveal } from "./StickyScrollReveal";
 import { TextScrambleCustomCharacterDuration } from "./HireButton";
+import { Testimonials } from "./testimonials";
+import { VelocityScroll } from "./ui/scroll-based-velocity";
+
 
 
 
@@ -49,7 +52,7 @@ const Hero = () => {
               </h2>
 
               <TextGenerateEffect
-                className="   sm:text-3xl md:text-4xl lg:text-6xl 2xl:text-8xl "
+                className="   sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl "
                 words="Where Code Meets Creativity ."
                 duration={4}
                 filter={false}
@@ -57,7 +60,7 @@ const Hero = () => {
 
               <h2>
                 <TextShimmer duration={2} className="pt-5">
-                  hii ,my name is Ashish next js + node js devloper
+                  Hii ,my name is Ashish next js + node js devloper
                 </TextShimmer>
               </h2>
 
@@ -68,7 +71,7 @@ const Hero = () => {
                   }
                   className="flex h-10 w-[120px] flex-shrink-0 items-center justify-center rounded-full  bg-black px-4 text-base font-medium text-zinc-200 shadow-sm transition-colors hover:bg-zinc-800 dark:bg-zinc-50 dark:text-black dark:hover:bg-zinc-200"
                 >
-                  <TextMorph>{text}</TextMorph>
+                  <TextMorph >{text}</TextMorph>
                   <FaArrowRight className="pl-2" />
                 </button>
               </div>
@@ -112,10 +115,7 @@ const Hero = () => {
 
             Soft skill
             </p>
-            <TextLoop className=" indent-[25rem]"  interval={3}>
-              <span>Down</span>
-              <span className="text-red-900"> down</span>
-            </TextLoop>
+            
             </h1>
 
         <StickyScrollReveal/>
@@ -128,7 +128,17 @@ const Hero = () => {
         </div>
        
       </div>
+        <div className="pt-20">
+          <VelocityScroll>
+            <span >next js </span>
+            <span className="">react js </span>
+            <span className="text-blue-900">node js </span>
+          </VelocityScroll>
+          
+        </div>
         <div className="pt-20 ">
+          <Testimonials/>
+
         </div>
 
         
