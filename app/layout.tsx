@@ -20,8 +20,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: " portfolios",
-  description: "portfolio is here now",
+  title: " ashish portfolios for next js ",
+  description: "Ashish Portfolio next js react node js backend devloper hire web devlopers ,freelancer  web devlopers  ",
 };
 
 export default function RootLayout({

@@ -14,6 +14,7 @@ import { StickyScrollReveal } from "./StickyScrollReveal";
 import { TextScrambleCustomCharacterDuration } from "./HireButton";
 import { Testimonials } from "./testimonials";
 import { VelocityScroll } from "./ui/scroll-based-velocity";
+import { Logos } from "./Logos";
 
 
 
@@ -95,7 +96,7 @@ const Hero = () => {
         <Grid/>
         <div className="pt-20 border-b border-zinc-50/10  ">
 
-          <h1 className="sm:text-4xl md:text-6xl lg:text-8xl xl:text-8xl flex gap-2  ">
+          <h1 className="sm:text-6xl md:text-6xl lg:text-8xl xl:text-8xl flex gap-2  ">
             project
         <TextLoop interval={3}>
           <span className=" text-[#c03030]">s </span>
@@ -111,7 +112,7 @@ const Hero = () => {
         </div>
         <div className="pt-20 ">
           <h1 className=" flex flex-col    font-semibold  ">
-            <p className=" sm:text-4xl md:text-6xl lg:text-8xl xl:text-8xl">
+            <p className=" sm:text-6xl md:text-6xl lg:text-8xl xl:text-8xl">
 
             Soft skill
             </p>
@@ -139,6 +140,9 @@ const Hero = () => {
         <div className="pt-20 ">
           <Testimonials/>
 
+        </div>
+        <div>
+          <Logos/>
         </div>
 
         
