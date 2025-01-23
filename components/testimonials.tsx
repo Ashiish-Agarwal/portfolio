@@ -18,19 +18,19 @@ export function Testimonials() {
 const testimonials = [
   {
     quote:
-      "Ashish delivered exceptional work on our recent project. His attention to detail and commitment to producing high-quality code were evident throughout. We were particularly impressed with his ability to quickly understand our needs and translate them into effective solutions",
-    name: "Ashish agarwal",
+      " delivered exceptional work on our recent project. His attention to detail and commitment to producing high-quality code were evident throughout. We were particularly impressed with his ability to quickly understand our needs and translate them into effective solutions",
+    name: "jon doe",
     title: "Focus on Quality & Results",
   },
   {
     quote:
-      "Working with Ashish was a pleasure. He is a strong communicator and a true team player. He was always responsive, receptive to feedback, and proactive in finding solutions. His contributions were invaluable to the success of our project.",
-    name: "Ashish agarwal",
+      "Working with dorny was a pleasure. He is a strong communicator and a true team player. He was always responsive, receptive to feedback, and proactive in finding solutions. His contributions were invaluable to the success of our project.",
+    name: "spidey doli",
     title: "Highlighting Communication & Collaboration",
   },
   {
-    quote: "Ashish demonstrated excellent problem-solving skills and a deep understanding of web development best practices. He consistently exceeded expectations by finding creative and efficient solutions to complex challenges. We highly recommend his services",
-    name: "Ashish agarwal",
+    quote: "dorny demonstrated excellent problem-solving skills and a deep understanding of web development best practices. He consistently exceeded expectations by finding creative and efficient solutions to complex challenges. We highly recommend his services",
+    name:"coso mollo",
     title: "Emphasizing Problem-Solving Skills",
   }
  

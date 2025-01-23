@@ -5,7 +5,7 @@ export function Testimonial() {
     {
       quote:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora facere quam earum autem pariatur! Alias magnam veritatis doloremque rerum cum?",
-      name: "avinash",
+      name: "jon doh",
       designation: "dummy data here...",
       src: "/avi.png",
       Link:'/link1'
