@@ -1,33 +1,29 @@
-import { AnimatedTestimonials } from "./ui/animated-testimonials"; 
+"use client";
 
-export function Testimonial() {
-  const testimonials = [
+import Carousel from "@/components/ui/carousel";
+export function CarouselDemo() {
+  const slideData = [
     {
-      quote:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora facere quam earum autem pariatur! Alias magnam veritatis doloremque rerum cum?",
-      name: "jon doh",
-      designation: "dummy data here...",
-      src: "/avi.png",
-      Link:'/link1'
+      title: "refukus clone ",
+      button: "Explore Component",
+      src: "/refokus.png",
+      Linksrc:'https://refukus-clone.netlify.app/',
       
+
       
     },
     {
-      quote:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora facere quam earum autem pariatur! Alias magnam veritatis doloremque rerum cum?",
-      name: "ashish agarwal",
-      designation: "dummy data here...",
+      title: "Urban Dreams",
+      button: "Explore Component",
       src: "/avatar.jpg",
-      Link:'/link2'
-      
-    }
+      Linksrc:'/akf',
    
+     
+    }
   ];
-  return(<>
-  <div className="relative">
-
-   <AnimatedTestimonials  testimonials={testimonials}  />
-  </div>
-  </>
-  )
+  return (
+    <div className="relative overflow-hidden w-full h-full py-20">
+      <Carousel slides={slideData} />
+    </div>
+  );
 }

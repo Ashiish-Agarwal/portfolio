@@ -8,7 +8,7 @@ import { TextShimmer } from "./ui/text-shimmer";
 import { TextMorph } from "./ui/text-morph";
 
 import { FaArrowRight } from "react-icons/fa6";
-import { Testimonial } from "./testimonial"; 
+import { CarouselDemo } from "./testimonial"; 
 import { Grid } from "./grid";
 import { StickyScrollReveal } from "./StickyScrollReveal";
 import { TextScrambleCustomCharacterDuration } from "./HireButton";
@@ -24,7 +24,7 @@ const Hero = () => {
   const [text, setText] = useState("Continue");
 
   return (
-    <div className="pb-20 pt-36 relative   ">
+    <div className="pb-20  relative   ">
       <Spotlight
         className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen "
         fill="white"
@@ -107,8 +107,8 @@ const Hero = () => {
           </h1>
 
 
-        {/* todo */}
-          <Testimonial/>
+        {/* projects listing */}
+          <CarouselDemo/>
         </div>
         <div className="pt-20 ">
           <h1 className=" flex flex-col    font-semibold  ">

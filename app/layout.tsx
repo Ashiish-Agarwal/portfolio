@@ -32,19 +32,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-black-100`}
+        className={`${geistSans.variable} ${geistMono.variable}  antialiased dark:bg-black-100`}
       >
         <Suspense fallback={<Loading/>}>
       
       
-           <ThemeProvider
+           <ThemeProvider 
             attribute="class"
             defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
-            >
+            
+            ><div className="">
+
             <FloatingNavDemo/>
             {children}
+            </div>
 
           </ThemeProvider>
           
