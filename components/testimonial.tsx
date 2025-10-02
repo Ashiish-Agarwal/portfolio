@@ -4,19 +4,27 @@ import Carousel from "@/components/ui/carousel";
 export function CarouselDemo() {
   const slideData = [
     {
-      title: "refukus clone ",
+      title: "Metaverss ",
       button: "Explore Component",
       src: "/refokus.png",
-      Linksrc:'https://refukus-clone.netlify.app/',
+      Linksrc:'https://bnbnbasdwdfvb.netlify.app/',
       
 
       
     },
     {
-      title: "Urban Dreams",
+      title: "Ai ui ",
       button: "Explore Component",
       src: "/avatar.jpg",
-      Linksrc:'/akf',
+      Linksrc:'https://ai-ontop.netlify.app/',
+   
+     
+    },
+    {
+      title: "Gaming  ui ",
+      button: "Explore Component",
+      src: "/avatar.jpg",
+      Linksrc:'https://gaminginin.netlify.app/',
    
      
     }
